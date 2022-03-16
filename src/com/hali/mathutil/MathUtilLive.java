@@ -14,8 +14,12 @@ public class MathUtilLive {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println( "!5 = " + MathUtil.getFactorial(-5) );
+        System.out.println( "!1 = " + MathUtil.getFactorial(1) );
         
+        // Them code sao lan dau tien lam chuyen ay 12:05 am 
+        System.out.println( "!4 = " + MathUtil.getFactorial(4) ); 
+        System.out.println( "!5 = " + MathUtil.getFactorial(5) ); 
+        System.out.println( "!6 = " + MathUtil.getFactorial(6) ); 
     }
     
 }
